@@ -1,0 +1,78 @@
+body{
+   margin: 0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: #FFF8E8;
+}
+
+.form-container{
+   margin: 70px 450px 70px 450px;
+   padding: 50px;
+   /* text-align: center; */
+   background-color: #F7EED3;
+}
+
+.title-h1{
+   font-size: 35px;
+   color: #674636;
+   text-align: center;
+}
+
+.title-h2{
+   color: #657e30;
+   text-align: center;
+}
+
+.title-form-h4{
+   color: #776B5D;
+   text-align: center;
+}
+
+.title-form{
+   font-weight: bold;
+   color: #674636;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-name, .form-nim,  .form-email, .form-class, .form-skills, .btn-submit{
+   display: flex;
+   justify-content: left;
+   margin-top: 20px;
+   color: #674636;
+}
+
+.form-group{
+   margin-left: 140px;
+}
+
+#input-name,  #input-nim, #input-email, #input-class, #input-skills{
+   padding: 20px;
+}
+
+.btn-submit{
+   background-color: #657e30;
+}
+
+.btn-submit:hover{
+   background-color: #657e30a2;
+}
+
+.link-submit{
+   text-decoration: none;
+   color: #FFF8E8;
+}
+
+.link-back{
+   color:#674636;
+}
+
+input, select{
+   border-radius: 5px;
+   border: 1px solid #657e30;
+   background-color: #FFF8E8;
+   width: 240px;
+   height: 24px;
+}
+
+
