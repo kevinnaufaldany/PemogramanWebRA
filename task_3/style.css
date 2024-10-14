@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+   --main-color : rgb(204, 239, 255);
+   --main-color-1: #A7E6FF;
+   --main-color-2: #3ABEF9;
+   --main-color-3: #3572EF;
+   --main-color-4: #050C9C;
+   --main-color-cream: #E1D7B7;
+   --black: #000000;
+   --white: #ffffff;
+}
+
+body{
+   background-color: var(--white);
+   font-family: 'Kanit', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: var(--main-color-3);
+   padding: 0px 70px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 999;
+}
+
+.logo-small{
+   color: var(--main-color-1);
+   font-size: 1.5rem;
+   font-weight: bold;
+   list-style-type: none;
+   text-decoration: none;
+}
+
+.navbar h1 a{
+   color: var(--main-color-1);
+   text-decoration: none;
+}
+
+.nav-list {
+   display: flex;
+   float: left;
+   list-style: none;
+   text-decoration: none;
+   font-size: 1.1rem;
+}
+
+.nav-list-a{
+   color: var(--white);
+   text-decoration: none;
+   padding: 0px 35px;
+}
+   
+.nav-list-a:hover{
+   color: var(--main-color-1);
+}
+
+#home{
+   padding: 120px 69px 40px 69px;
+   background-color: var(--main-color);
+   background-image: url(asset/fish/bghome.png);
+   background-size: cover;
+   filter: blur(0px);
+}
+
+#home h1{
+   font-size: 4rem;
+   color: var(--main-color-4);
+   text-align: center;
+   margin-top: 1px;
+   margin-bottom: 0px;
+}
+
+#home h2{
+   font-size: 2rem;
+   color: var(--main-color-4);
+   text-align: center;
+   margin-top: 0px;
+}
+
+#home p{
+   font-size: 1.5em;
+   color: var(--main-color-3);
+   text-align: center;
+}
+
+#why-small{
+   padding: 10px 300px 15px 300px;
+   background-color: var(--main-color);
+}
+
+#why-small h2{
+   font-size: 2.2rem;
+   color: var(--main-color-3);
+   text-align: center;
+   margin-top: 1px;
+   margin-bottom: 0px;
+}
+
+#why-small p{
+   color: var(--black);
+   text-align: center;
+}
+
+#our-fish{
+   padding: 10px 120px 15px 120px;
+   background-color: var(--white);
+}
+
+.card-ourfish{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 40px;
+   margin-top: 20px; 
+   margin-bottom: 40px; 
+}
+
+#our-fish h2{
+   font-size: 2.2rem;
+   color: var(--main-color-3);
+   text-align: center;
+   margin-top: 1px;
+   margin-bottom: 0px;
+}
+
+.fish-card img{
+   width: 100%;
+   height: auto;
+}
+
+.fish-card{
+   background-color: var(--main-color-1);
+   padding: 25px;
+   border-radius: 30px;
+   margin-top: 0px;
+}
+
+.fish-card h3{
+   font-size: 1.4rem;
+   color: var(--main-color-4);
+   text-align: center;
+}
+
+.fish-card p{
+   font-size: 1rem;
+   text-align: justify;
+}
+
+
+
