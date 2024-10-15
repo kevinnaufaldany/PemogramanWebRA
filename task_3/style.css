@@ -65,7 +65,7 @@ body{
 .hamburger{
    display: none;
    font-size: 1.5rem;
-   color: var(--main-color-1);
+   color: var(--white);
    cursor: pointer;
 }
 
