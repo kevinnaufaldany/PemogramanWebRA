@@ -432,8 +432,11 @@ body{
    }
 
    .hamburger{
-      display: block;
-      
+      display: block; 
+   }
+
+   .hamburger:hover{
+      color: var(--main-color-1);
    }
 
    .nav-list-a{
