@@ -10,10 +10,15 @@
    <body>
       <nav class="navbar">
          <h1 class="logo-small"><a href="#">Small</a></h1>
-         <ul>
+
+         <div class="hamburger">
+            <i class="ri-menu-line"></i>
+         </div>
+
+         <ul class="nav-link">
             <li class="nav-list"><a href="#home" class="nav-list-a">Home</a></li>
             <li class="nav-list"><a href="#our-fish" class="nav-list-a">Our Fish</a></li>
-            <li class="nav-list"><a href="#purchase" class="nav-list-a">Purchase</a></li>
+            <li class="nav-list"><a href="#benefits" class="nav-list-a">Benefits</a></li>
          </ul>
       </nav>
       
@@ -37,43 +42,61 @@
                <img src="/asset/fish/salmon.png" alt="salmon image">
                <h3>Salmon Fish</h3>
                <p>Salmon is rich in omega-3 fatty acids, high-quality protein, and vitamins D and B12, which benefit heart, brain, muscle, skin, and bone health. Omega-3 helps lower bad cholesterol, supports brain function, and keeps skin healthy, while vitamin D is essential for maintaining strong bones.</p>
-               <p class="price">Price : Rp 300.000 / Kg</p>
-               <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               
+               <div class="price-container">
+                  <p class="price">Price : Rp 300.000 / Kg</p>
+                  <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               </div>
             </div>
             <div class="fish-card">
                <img src="/asset/fish/tenggiri.png" alt="tenggiri image">
                <h3>Tenggiri Fish</h3>
                <p>Tenggiri fish is rich in high-quality protein, omega-3 fatty acids, vitamin B12, and selenium, providing benefits for heart, brain, muscle health, and boosting the immune system. Its omega-3 content also helps reduce inflammation and maintains healthy skin.</p>
-               <p class="price">Price : Rp 150.000 / Kg</p>
-               <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               
+               <div class="price-container">
+                  <p class="price">Price : Rp 150.000 / Kg</p>
+                  <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               </div>
             </div>
             <div class="fish-card">
                <img src="/asset/fish/sotong.png" alt="sotong image">
                <h3>Cuttlefish</h3>
                <p>Cuttlefish is a good source of high-quality protein, rich in vitamin B12, iron, and selenium. Its nutrients help support muscle health, red blood cell production, nerve function, and boost the immune system. Additionally, cuttlefish is low in calories, making it suitable for a healthy diet.</p>
-               <p class="price">Price : Rp 100.000 / Kg</p>
-               <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               
+               <div class="price-container">
+                  <p class="price">Price : Rp 100.000 / Kg</p>
+                  <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               </div>
             </div>
             <div class="fish-card">
                <img src="/asset/fish/tuna.png" alt="tuna image">
                <h3>Tuna Fish</h3>
                <p>Tuna is rich in protein, omega-3 fatty acids, B vitamins, and minerals like selenium. The omega-3 in tuna supports heart health, reduces inflammation, and enhances brain function. Tuna is also low in calories, making it ideal for a healthy diet, while its vitamin A content promotes eye health and muscle growth.</p>
-               <p class="price">Price : Rp 130.000 / Kg</p>
-               <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               
+               <div class="price-container">  
+                  <p class="price">Price : Rp 130.000 / Kg</p>
+                  <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               </div>
             </div>
             <div class="fish-card">
                <img src="/asset/fish/tongkol.png" alt="tongkol image">
                <h3>Tongkol Fish</h3>
                <p>Tuna is rich in protein, omega-3 fatty acids, B vitamins, and minerals like selenium. The omega-3 in tuna supports heart health, reduces inflammation, and enhances brain function. Tuna is also low in calories, making it ideal for a healthy diet, while its vitamin A content promotes eye health and muscle growth.</p>
-               <p class="price">Price : Rp 50.000 / Kg</p>
-               <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               
+               <div class="price-container">
+                  <p class="price">Price : Rp 50.000 / Kg</p>
+                  <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               </div>
             </div>
             <div class="fish-card">
                <img src="/asset/fish/udang.png" alt="udang image">
                <h3>Shrimp</h3>
                <p>Shrimp is rich in protein, low in calories, and contains various vitamins and minerals such as vitamin B12, phosphorus, and selenium. Shrimp also contains antioxidants like astaxanthin, which helps maintain skin health and protect against inflammation. Additionally, the omega-3 fatty acids in shrimp promote heart and brain health.</p>
-               <p class="price">Price : Rp 150.000 / Kg</p>
-               <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               
+               <div class="price-container">
+                  <p class="price">Price : Rp 130.000 / Kg</p>
+                  <button value="buy"><i class="ri-shopping-basket-2-fill"></i></button>
+               </div>             
             </div>
          </div>
       </section>
@@ -82,13 +105,15 @@
          <h2 class="h2-benefits">The Importance of Eating Fish</h2>
          <p class="p-benefits">Eating fish is not only delicious but also beneficial for your health. Fish is a great source of high-quality protein, omega-3 fatty acids, vitamins, and minerals. It can help reduce the risk of heart disease, improve brain function, and support overall well-being.</p>
          <h3 class="h3-benefits">Benefits of Eating Fish:</h3>
-         <ul>
-            <li><i class="ri-line-chart-line"></i> Rich in Omega-3 Fatty Acids</li>
-            <li><i class="ri-heart-pulse-line"></i> Good for Heart Health</li>
-            <li><i class="ri-brain-line"></i> Improves Brain Function</li>
-            <li><i class="ri-psychotherapy-line"></i> Supports Eye Health</li>
-            <li><i class="ri-stethoscope-line"></i> Boosts Immune System</li>
-         </ul>
+         <div class="list-benefits">
+            <ul>
+               <li><i class="ri-line-chart-line"></i> Rich in Omega-3 Fatty Acids</li>
+               <li><i class="ri-heart-pulse-line"></i> Good for Heart Health</li>
+               <li><i class="ri-brain-line"></i> Improves Brain Function</li>
+               <li><i class="ri-psychotherapy-line"></i> Supports Eye Health</li>
+               <li><i class="ri-stethoscope-line"></i> Boosts Immune System</li>
+            </ul>
+         </div>
       </section>
    </body>
 </html>

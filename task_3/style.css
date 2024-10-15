@@ -62,6 +62,13 @@ body{
    color: var(--main-color-1);
 }
 
+.hamburger{
+   display: none;
+   font-size: 1.5rem;
+   color: var(--main-color-1);
+   cursor: pointer;
+}
+
 #home{
    padding: 120px 69px 40px 69px;
    background-color: var(--main-color);
@@ -92,7 +99,7 @@ body{
 }
 
 #why-small{
-   padding: 10px 300px 15px 300px;
+   padding: 10px 250px 15px 250px;
    background-color: var(--main-color);
 }
 
@@ -151,6 +158,372 @@ body{
 .fish-card p{
    font-size: 1rem;
    text-align: justify;
+}
+
+.price-container {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+.price{
+   font-size: 1.2rem;
+   color: var(--main-color-4);
+   text-align: right;
+   float: right;
+
+}
+
+.fish-card button{
+   background-color: var(--main-color-3);
+   color: var(--white);
+   border: none;
+   padding: 9px 18px;
+   border-radius: 10px;
+   cursor: pointer;
+   text-align: right;
+   float: right;
+}
+
+.ri-shopping-basket-2-fill{
+   font-size: 1.2rem;
+}
+
+.fish-card button:hover{
+   background-color: var(--main-color-4);
+}
+
+
+#benefits{
+   padding: 10px 250px 15px 250px;
+   background-color: var(--main-color);
+}
+
+#benefits h2{
+   font-size: 2.2rem;
+   color: var(--main-color-3);
+   text-align: center;
+   margin-top: 1px;
+   margin-bottom: 0px;
+}
+
+#benefits p{
+   color: var(--black);
+   text-align: center;
+}
+
+#benefits h3{
+   font-size: 1.4rem;
+   color: var(--main-color-4);
+   text-align: center;
+   margin-bottom: 0px;
+}
+
+.list-benefits{
+   display: flex;
+   justify-content: center;
+}
+
+.list-benefits ul{
+   list-style-type: none;
+   padding: 0;
+}
+
+.ri-line-chart-line, .ri-heart-pulse-line, .ri-brain-line, .ri-psychotherapy-line, .ri-stethoscope-line{
+   font-size: 1.8rem;
+   color: var(--main-color-3);
+   padding-right: 15px;
+}
+
+.list-benefits li{
+   font-size: 1.2rem;
+}
+
+/* / * Responsive * / */
+@media screen and (max-width: 1024px){
+   .navbar{
+      padding: 0px 60px;
+   }
+
+   .nav-list-a{
+      font-size: 1rem;
+   }
+
+   #home{
+      padding: 120px 50px 40px 50px;
+   }
+
+   #home h1{
+      font-size: 3.5rem;
+   }
+
+   #home h2{
+      font-size: 1.8rem;
+   }
+
+   #home p{
+      font-size: 1.2em;
+   }
+
+   #why-small{
+      padding: 10px 150px 15px 150px;
+   }
+
+   #why-small h2{
+      font-size: 2rem;
+   }
+
+   #why-small p{
+      font-size: 0.9rem;
+   }
+   
+   #our-fish{
+      padding: 10px 80px 15px 80px;
+   }
+
+   #our-fish h2{
+      font-size: 2rem;
+   }
+
+   .card-ourfish{
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .card-ourfish p{
+      font-size: 0.9rem;
+   }
+
+   .card-ourfish button {
+      padding: 6px 12px;
+   }
+
+   .ri-shopping-basket-2-fill{
+      font-size: 1rem;
+   }
+
+   .card-ourfish h3{
+      font-size: 1.3rem;
+   }
+
+   #benefits{
+      padding: 10px 150px 15px 150px;
+   }
+
+   #benefits h2{
+      font-size: 2rem;
+   }
+
+   #benefits p{
+      font-size: 0.9rem;
+   }
+
+   #benefits h3{
+      font-size: 1.3rem;
+   }
+
+   .ri-line-chart-line, .ri-heart-pulse-line, .ri-brain-line, .ri-psychotherapy-line, .ri-stethoscope-line{
+      font-size: 1.6rem;
+      padding-right: 10px;
+   }
+
+   .list-benefits li{
+      font-size: 1.1rem;
+   }
+   
+}
+
+@media screen and (max-width: 768px){
+   .navbar{
+      padding: 0px 50px;
+   }
+
+   .nav-list-a{
+      font-size: 0.9rem;
+      padding: 0px 20px;
+   }
+
+   #home{
+      padding: 120px 30px 40px 30px;
+   }
+   
+   #home h1{
+      font-size: 2.8rem;
+   }
+
+   #home h2{
+      font-size: 1.3rem;
+   }
+
+   #home p{
+      font-size: 1em;
+   }
+
+   #why-small{
+      padding: 10px 60px 15px 60px;
+   }
+
+   #why-small h2{
+      font-size: 1.7rem;
+   }
+
+   #why-small p{
+      font-size: 0.8rem;
+   }
+
+   #our-fish{
+      padding: 10px 50px 15px 30px;
+   }
+
+   #our-fish h2{
+      font-size: 1.7rem;
+   }
+
+   .card-ourfish h3{
+      font-size: 1.1rem;
+   }
+
+   .card-ourfish p{
+      font-size: 0.75rem;
+   }
+
+   .card-ourfish button {
+      padding: 4.5px 9px;
+   }
+
+   .ri-shopping-basket-2-fill{
+      font-size: 0.85rem;
+   }
+
+   #benefits{
+      padding: 10px 30px 15px 30px;
+   }
+
+   .list-benefits li{
+      font-size: 0.9rem;
+   }
+
+   #benefits h2{
+      font-size: 1.7rem;
+   }
+
+   #benefits p{
+      font-size: 0.9rem;
+      padding: 0px 30px;
+   }
+
+   #benefits h3{
+      font-size: 1.1rem;
+   }
+
+   .ri-line-chart-line, .ri-heart-pulse-line, .ri-brain-line, .ri-psychotherapy-line, .ri-stethoscope-line{
+      font-size: 1.4rem;
+      padding-right: 10px;
+   }
+}
+
+@media screen and (max-width: 465px){
+   .navbar{
+      padding: 0px 35px;
+      justify-content: space-between;
+   }
+
+   .nav-link{
+      display: none;
+   }
+
+   .hamburger{
+      display: block;
+      
+   }
+
+   .nav-list-a{
+      font-size: 0.8rem;
+      padding: 0px 15px;
+   }
+
+   #home{
+      padding: 120px 20px 20px 20px;
+   }
+
+   #home h1{
+      font-size: 2.2rem;
+   }
+
+   #home h2{
+      font-size: 1.2rem;
+   }
+
+   #home p{
+      font-size: 0.9em;
+   }
+
+   #why-small{
+      padding: 10px 40px 15px 40px;
+   }
+
+   #why-small h2{
+      font-size: 1.5rem;
+   }
+
+   #why-small p{
+      font-size: 0.75rem;
+   }
+
+   #our-fish{
+      padding: 10px 40px 15px 40px;
+   }
+
+   #our-fish h2{
+      font-size: 1.5rem;
+   }
+
+   .card-ourfish{
+      grid-template-columns: repeat(1, 1fr);
+      margin-bottom: 10px;
+      gap: 20px;
+   }
+
+   .card-ourfish h3{
+      font-size: 1.2rem;
+   }
+
+   .card-ourfish p{
+      font-size: 0.75rem;
+   }
+
+   .card-ourfish button {
+      padding: 6px 12px;
+   }
+
+   .ri-shopping-basket-2-fill{
+      font-size: 0.95rem;
+   }
+
+   #benefits{
+      padding: 10px 20px 15px 20px;
+   }
+
+   .list-benefits li{
+      font-size: 0.8rem;
+   }
+
+   #benefits h2{
+      font-size: 1.5rem;
+   }
+
+   #benefits p{
+      font-size: 0.75rem;
+      padding: 0px 20px;
+   }
+
+   #benefits h3{
+      font-size: 1rem;
+   }
+
+   .ri-line-chart-line, .ri-heart-pulse-line, .ri-brain-line, .ri-psychotherapy-line, .ri-stethoscope-line{
+      font-size: 1.2rem;
+      padding-right: 10px;
+   }
 }
 
 
