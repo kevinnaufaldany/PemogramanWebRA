@@ -1,0 +1,121 @@
+/* Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Warna Latar dan Kontainer */
+body {
+   font-family: Arial, sans-serif;
+   background: linear-gradient(135deg, #ff7eb3, #ff758c);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.container {
+   background: #fff;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   width: 90%;
+   max-width: 900px;
+}
+
+h2 {
+   text-align: center;
+   margin-bottom: 20px;
+   color: #333;
+}
+
+/* Tabel */
+.result-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+}
+
+.result-table th, .result-table td {
+   padding: 10px;
+   text-align: left;
+   border: 1px solid #ddd;
+   font-size: 14px;
+}
+
+.result-table th {
+   background-color: #f4f4f4;
+   font-weight: bold;
+   color: #555;
+}
+
+.result-table tr:nth-child(even) {
+   background-color: #f9f9f9;
+}
+
+/* Subjudul */
+.title {
+   text-align: left;
+   margin-top: 20px;
+   font-weight: bold;
+   font-size: 18px;
+   color: #555;
+}
+
+a{
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+}
+
+.back {
+   width: 100%;
+   padding: 10px;
+   font-size: 14px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+.back {
+   background-color: #ff758c;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.back:hover {
+   background-color: #ff5470;
+}
+
+.back:active {
+   transform: scale(0.98);
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+   .container {
+       padding: 20px;
+   }
+
+   h2 {
+       font-size: 20px;
+   }
+
+   .result-table th, .result-table td {
+       font-size: 13px;
+   }
+
+   .title {
+       font-size: 16px;
+   }
+}

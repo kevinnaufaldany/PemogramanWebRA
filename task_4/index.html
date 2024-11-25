@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendataan Pemweb RA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm" action="process.php" method="POST" enctype="multipart/form-data">
+            <h2>Pendataan Mahasiswa</h2>
+            <h2>Pemograman Web RA</h2>
+
+            <div class="form-group">
+                <label for="name">Nama <span>*</span></label>
+                <input type="text" id="name" name="name" minlength="3" maxlength="100" placeholder="Nama Lengkap" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nim">NIM <span>*</span></label>
+                <input type="text" id="nim" name="nim" placeholder="Eg. 122140222" pattern="\d{9}" title="Masukkan NIM yang valid (9 digit)" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email ITERA <span>*</span></label>
+                <input type="email" id="email" name="email" placeholder="Eg. example@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Nomor HP <span>*</span></label>
+                <input type="text" id="phone" name="phone" placeholder="Eg. +62 822 1234 5689" pattern="\d{10,13}" title="Masukkan nomor telepon yang valid (10-13 digit)" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bio">Message <span>*</span></label>
+                <textarea id="bio" name="bio" minlength="10" maxlength="500" placeholder="Please enter your comments..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="file">Upload Transkrip (.txt, Max 2MB) <span>*</span></label>
+                <input type="file" id="file" name="file" accept=".txt" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
